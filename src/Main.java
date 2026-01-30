@@ -5,13 +5,13 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-
+        System.out.println("***********wel come to age calculator***********");
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter your birth year (YYYY): ");
+        System.out.println("Enter your birth year (YYYY): ");
         int year = sc.nextInt();
-        System.out.print("Enter your birth month (MM): ");
+        System.out.println("Enter your birth month (MM): ");
         int month = sc.nextInt();
-        System.out.print("Enter your birth day (DD): ");
+        System.out.println("Enter your birth day (DD): ");
         int day = sc.nextInt();
         LocalDate birthDate = LocalDate.of(year, month, day);
         LocalDate currentDate = LocalDate.now();
@@ -20,7 +20,7 @@ public class Main {
         System.out.println(age.getYears() + " Years "
                 + age.getMonths() + " Months "
                 + age.getDays() + " Days");
-
+        System.out.println("thank you for using age calculator");
         sc.close();
     }
 }
