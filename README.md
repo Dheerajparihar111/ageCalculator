@@ -35,6 +35,7 @@ Age-Calculator/
 Clone the repository:
 
 git clone https://github.com/Dheerajparihar111/Age-Calculator.git
+<img width="1895" height="1012" alt="Age calculator output" src="https://github.com/user-attachments/assets/f65b862b-b636-48db-a90b-ef8f1e0c2e1f" />
 
 
 Navigate to the project directory:
