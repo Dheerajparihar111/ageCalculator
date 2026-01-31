@@ -20,6 +20,17 @@ public class Main {
         System.out.println(age.getYears() + " Years "
                 + age.getMonths() + " Months "
                 + age.getDays() + " Days");
+        if (age.getYears()>18){
+            if ( age.getYears() < 60) {
+                System.out.println("you are adult");
+            }else {
+                System.out.println("you are senior citizen");
+            }
+        }else {
+            System.out.println("child");
+        }
+
+
         System.out.println("thank you for using age calculator");
         sc.close();
     }
